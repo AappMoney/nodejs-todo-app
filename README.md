@@ -2,5 +2,5 @@
 
 <ul>
   <li>npm install</li>
-  <li>npm or yarn start
+  <li>node app.js</li>
 </ul>
