@@ -1,0 +1,21 @@
+<html>
+    <link>
+        <title>To Do with Node.js</title>
+        <script type="text/javascript" src="/assets/todo-list.js"></script>
+        <link href="/assets/styles.css" rel="stylesheet" type="text/css"></link>
+    </head>
+    <body>
+        <h1>My todo list</h1>
+        <div id="todo-table">
+            <form>
+                <input type="text" name="item" placeholder="Add new item..." required>
+                <button type="submit">Add item</button>
+            </form>
+            <ul>
+                <% for(let i = 0; i < todo.length; i++) { %>
+                    <li class="item"> <%= todo[i].item %> </li>
+                <% } %>
+            </ul>
+        </div>
+    </body>
+</html>
